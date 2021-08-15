@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+.tabs {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.tabs__item {
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.tabs__item-active {
+  border: 1px solid grey;
+}
+.content {
+  list-style-type: none;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+.content__item {
+  display: none;
+}
+.content__item-active {
+  display: block;
+}
